@@ -13,6 +13,10 @@
 		36601506249F120200B4B157 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 36601504249F120200B4B157 /* Main.storyboard */; };
 		36601508249F120400B4B157 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 36601507249F120400B4B157 /* Assets.xcassets */; };
 		3660150B249F120400B4B157 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 36601509249F120400B4B157 /* LaunchScreen.storyboard */; };
+		36601515249F44D500B4B157 /* Account.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36601514249F44D500B4B157 /* Account.swift */; };
+		36A892B724A092CA0094582B /* AccountTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36A892B624A092CA0094582B /* AccountTableViewCell.swift */; };
+		36A892B924A0C2300094582B /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36A892B824A0C2300094582B /* DetailViewController.swift */; };
+		36A892BB24A1AC9D0094582B /* Helpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36A892BA24A1AC9D0094582B /* Helpers.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +28,10 @@
 		36601507249F120400B4B157 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3660150A249F120400B4B157 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3660150C249F120400B4B157 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		36601514249F44D500B4B157 /* Account.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Account.swift; sourceTree = "<group>"; };
+		36A892B624A092CA0094582B /* AccountTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountTableViewCell.swift; sourceTree = "<group>"; };
+		36A892B824A0C2300094582B /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		36A892BA24A1AC9D0094582B /* Helpers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Helpers.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +67,10 @@
 				366014FE249F120100B4B157 /* AppDelegate.swift */,
 				36601500249F120100B4B157 /* SceneDelegate.swift */,
 				36601502249F120100B4B157 /* ViewController.swift */,
+				36601514249F44D500B4B157 /* Account.swift */,
+				36A892B624A092CA0094582B /* AccountTableViewCell.swift */,
+				36A892B824A0C2300094582B /* DetailViewController.swift */,
+				36A892BA24A1AC9D0094582B /* Helpers.swift */,
 				36601504249F120200B4B157 /* Main.storyboard */,
 				36601507249F120400B4B157 /* Assets.xcassets */,
 				36601509249F120400B4B157 /* LaunchScreen.storyboard */,
@@ -139,6 +151,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				36601503249F120100B4B157 /* ViewController.swift in Sources */,
+				36A892BB24A1AC9D0094582B /* Helpers.swift in Sources */,
+				36601515249F44D500B4B157 /* Account.swift in Sources */,
+				36A892B724A092CA0094582B /* AccountTableViewCell.swift in Sources */,
+				36A892B924A0C2300094582B /* DetailViewController.swift in Sources */,
 				366014FF249F120100B4B157 /* AppDelegate.swift in Sources */,
 				36601501249F120100B4B157 /* SceneDelegate.swift in Sources */,
 			);
